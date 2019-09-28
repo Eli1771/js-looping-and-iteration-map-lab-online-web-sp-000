@@ -11,3 +11,7 @@ function nameToAttributes(drivers) {
   drivers.map(function(driver) { madeIntoObj.push({firstName: driver.split(" ")[0], lastName: driver.split(" ")[1] }) });
   return madeIntoObj;
 }
+
+function attributesToPhrase() {
+  
+}
