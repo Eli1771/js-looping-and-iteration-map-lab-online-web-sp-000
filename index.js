@@ -12,6 +12,7 @@ function nameToAttributes(drivers) {
   return madeIntoObj;
 }
 
-function attributesToPhrase() {
-  
+function attributesToPhrase(drivers) {
+  const strings = []; 
+  drivers.map(function(driver) {strings.push(`${driver.name} is from ${driver.hometown}`)})
 }
