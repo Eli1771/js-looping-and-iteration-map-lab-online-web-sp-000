@@ -9,4 +9,5 @@ function lowerCaseDrivers(drivers) {
 function nameToAttributes(drivers) {
   const madeIntoObj = [];
   drivers.map(function(driver) { madeIntoObj.push({firstName: driver.split(" ")[0], lastName: driver.split(" ")[1] }) });
+  return madeIntoObj;
 }
